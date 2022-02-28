@@ -1,6 +1,6 @@
 ## The lannisterpay API
 
-This is a transaction fee processing API. It calculates the fee applicable to a transaction based on specific fee configurations set. Redis was used for faster data access as it is an in-memory database.
+This is a transaction payment splitting service (TPSS)
 
 ## Requirements
 
@@ -12,8 +12,8 @@ This is a transaction fee processing API. It calculates the fee applicable to a 
 Clone the repo and install the dependencies.
 
 ```bash
-git clone https://github.com/Elikdev/lannister_pay_flutterwave.git
-cd lannister_pay_flutterwave
+git clone https://github.com/Elikdev/lannisterpay_tpss.git
+cd lannisterpay_tpss
 ```
 
 ```bash
@@ -40,4 +40,4 @@ npm run test
 
 ## API endpoints
 
-Check [Documentation](https://documenter.getpostman.com/view/9087902/UVeDsn8P)
+comming soon

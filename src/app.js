@@ -1,7 +1,7 @@
 import express from "express"
 import cors from "cors"
 import morgan from "morgan"
-import routes from "./api/v1/fees/fee.controller"
+import routes from "./api/v1/splitPayments/split.controller"
 import { errorResponse } from "./helpers/response.helpers"
 import { isCelebrateError } from "celebrate"
 

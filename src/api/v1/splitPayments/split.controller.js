@@ -2,7 +2,7 @@ import {
   errorResponse,
   successResponse,
 } from "../../../helpers/response.helpers"
-import { feeService } from "./fee.services"
+import { feeService } from "./split.services"
 import { computeFeeValidation } from "../../../helpers/validation"
 
 const routes = (app) => {

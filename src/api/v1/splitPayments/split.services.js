@@ -120,7 +120,7 @@ class FeeService {
           false,
           {},
           400,
-          "Check that you entered thr correct data as total amount computed should not be grater than the transactional amount"
+          "Check that you entered the correct data as total amount computed should not be grater than the transactional amount"
         )
       }
     }
