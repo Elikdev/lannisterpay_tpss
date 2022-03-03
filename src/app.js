@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
 
 app.post(
   "/split-payments/compute",
-  // computeFeeValidation(),
+  computeFeeValidation(),
   async (req, res) => {
     const { ID, Amount, SplitInfo } = req.body
 
