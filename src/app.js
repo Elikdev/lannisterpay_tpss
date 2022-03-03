@@ -4,6 +4,7 @@ import morgan from "morgan"
 import { errorResponse } from "./helpers/response.helpers"
 import { isCelebrateError } from "celebrate"
 import { computeFeeValidation } from "./helpers/validation"
+import { logResponseTime } from "./helpers/response.helpers"
 
 const app = express()
 
@@ -11,6 +12,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(cors())
 app.use(morgan("dev"))
+app.use(logResponseTime)
 
 app.get("/", (req, res) => {
   return res.status(200).json({
